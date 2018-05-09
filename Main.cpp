@@ -10,8 +10,11 @@ int main()
 	srand(time(0));
 	
 	string name;
+	bool busted = false;
 	//cout << "Please enter your name: ", cin >> name;
 	
+
+
 	Card *deck[52];
 	int cardNumber = 0;
 	for(int i = 1; i <= 13; i++)
@@ -30,8 +33,34 @@ int main()
 
 	//Game
 	//Card copyOfCard = deck[0];
-	player.addCard(deck[1]);
-	player.calculateHand();
-	cout << player.handTotal;	
+	// player.addCard(deck[1]);
+	// player.calculateHand();
+	// cout << player.handTotal;	
+
+	// int x = rand() % 52;
+
+	// player.addCard(deck[x]);
+	// deck[x]->setIsUsed();
+
+	// x = rand() % 52;
+	// if(deck[x].isUsed == false)
+	// {
+	// 	player.addCard(deck[])	
+	// }
+	
+
+
+	// while(!busted)
+	// {
+	// 	char decision;
+	// 	cout << "Hit or stay? (h/s): ", cin >> decision;
+
+	// 	if(decision == 'h')
+	// 	{
+
+	// 	}
+
+	// }
+
 
 }
