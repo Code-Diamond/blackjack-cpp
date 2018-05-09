@@ -5,10 +5,6 @@ using namespace std;
 
 class Card
 {
-	private:
-		//Private attributes/Properties
-
-
 	public:
 		string suit;
 		string value;

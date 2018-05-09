@@ -344,7 +344,7 @@ Card::Card(int x, int y)
 			break;
 	}
 	is_used = false;
-};
+}
 
 string Card::getCardValue()
 {

@@ -1,8 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include <ctime>
-#include "Card.h"
-
+#include "Player.h"
 using namespace std;
 
 
@@ -25,7 +24,14 @@ int main()
 		cardNumber++;
 	}
 
+	Player player;
+	Player dealer;
+	//set the player name
 
-	cout << deck[0]->getCardValue();
+	//Game
+	//Card copyOfCard = deck[0];
+	player.addCard(deck[1]);
+	player.calculateHand();
+	cout << player.handTotal;	
 
 }
